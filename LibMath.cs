@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace LibMath_OBSEQUION {
 	internal class LibMath {
+		public double AreaLosango(double diagonalMaior, double diagonalMenor)
+		{
+			return (diagonalMaior * diagonalMenor) / 2;
+		}
 	}
 }
 
