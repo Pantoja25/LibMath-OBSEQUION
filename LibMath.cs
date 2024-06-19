@@ -11,6 +11,16 @@ namespace LibMath_OBSEQUION {
 		{
 			return (diagonalMaior * diagonalMenor) / 2;
 		}
+
+        //Area do Triangulo H03
+        public double CalcularAreaTriangulo(double baseTriangulo, double alturaTriangulo)
+        {
+            return (baseTriangulo * alturaTriangulo) / 2;
+        }
+  
+		    // Area do Retangulo
+		    public double AreaRetangulo(double b, double h) {
+			    return b * h;
+		    }
 	}
 }
-
