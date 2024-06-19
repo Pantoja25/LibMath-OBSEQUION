@@ -9,4 +9,3 @@ namespace LibMath_OBSEQUION {
 	internal class LibMath {
 	}
 }
-
