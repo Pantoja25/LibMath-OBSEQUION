@@ -7,20 +7,23 @@ using System.Threading.Tasks;
 
 namespace LibMath_OBSEQUION {
 	internal class LibMath {
-		public double AreaLosango(double diagonalMaior, double diagonalMenor)
-		{
+		public double AreaLosango(double diagonalMaior, double diagonalMenor){
 			return (diagonalMaior * diagonalMenor) / 2;
 		}
 
         //Area do Triangulo H03
-        public double CalcularAreaTriangulo(double baseTriangulo, double alturaTriangulo)
-        {
+        public double CalcularAreaTriangulo(double baseTriangulo, double alturaTriangulo){
             return (baseTriangulo * alturaTriangulo) / 2;
         }
   
-		    // Area do Retangulo
-		    public double AreaRetangulo(double b, double h) {
-			    return b * h;
-		    }
-	}
+		// Area do Retangulo
+		public double AreaRetangulo(double b, double h) {
+			return b * h;
+		}
+
+        // H-04 AREA DO QUADRADO
+        public float AreaQuadrado(float lado) {
+            return lado * lado;
+        }
+    }
 }
