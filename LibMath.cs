@@ -22,7 +22,7 @@ namespace LibMath_OBSEQUION {
 		}
 
         // H-04 AREA DO QUADRADO
-        public float AreaQuadrado(float lado) {
+        public double AreaQuadrado(double lado) {
             return lado * lado;
         }
     }
