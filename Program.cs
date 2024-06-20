@@ -29,7 +29,12 @@
 					case 2:
 						Console.WriteLine("Digite o valor do lado");
 
-						break;
+                        double lado = Convert.ToDouble(Console.ReadLine());
+                        double areaQuadrado = libMath.AreaQuadrado(lado);
+
+                        Console.WriteLine("A área do quadrado é: ", areaQuadrado);
+
+                        break;
 
 					case 3:
 						Console.WriteLine("Digite o valor do lado");
@@ -51,6 +56,7 @@
 						break;
 				
 				}
+				Console.ReadKey();
 			}
 		}
 	}
