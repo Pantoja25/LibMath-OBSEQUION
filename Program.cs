@@ -1,4 +1,6 @@
-﻿namespace LibMath_OBSEQUION {
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace LibMath_OBSEQUION {
 	internal class Program {
 		static void Main(string[] args) {
 			LibMath libMath = new LibMath();
@@ -42,12 +44,21 @@
 						break;
 
 					case 4:
-						Console.WriteLine("Digite o valor do lado");
+						Console.WriteLine("\nCalcular área do  Losango por diagonais");
+						Console.Write("Digite o valor da diagonal maior: ");
+						double diagonalMaior = Convert.ToDouble(Console.ReadLine());
+
+						Console.Write("Digite o valor da diagonal menor: ");
+						double diagonalMenor = Convert.ToDouble(Console.ReadLine());
+
+						double area = libMath.AreaLosango(diagonalMaior, diagonalMenor);
+
+						Console.WriteLine("A área do losango é: ", area);
 
 						break;
 
 					case 5:
-						Console.WriteLine("Digite o valor do lado");
+						Console.WriteLine("Digite o valor do lado");                                                                                                                                        
 						break;
 
 					case 6:
